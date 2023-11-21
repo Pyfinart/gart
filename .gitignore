@@ -1,0 +1,58 @@
+# 依赖项 #
+############
+/node_modules
+/.pnp
+.pnp.js
+
+# 构建产物 #
+#############
+/build
+/dist
+/out
+
+# 缓存 #
+#########
+/.cache
+/coverage
+*.tgz
+
+# 日志 #
+########
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器目录和文件 #
+#####################
+/.idea
+/.vscode
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 环境变量文件 #
+################
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 其他 #
+########
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.db
+
+# 特定于操作系统的文件 #
+#########################
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
